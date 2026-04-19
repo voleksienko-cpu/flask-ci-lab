@@ -19,7 +19,7 @@ def health():
 def info():
     return jsonify({
         "version": os.getenv("APP_VERSION", "1.0.0"),
-        "environment": os.getenv("ENVIRONMENT", "development") 
+        "environment": os.getenv("ENVIRONMENT", "development")
     })
 
 
